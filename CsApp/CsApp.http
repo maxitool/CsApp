@@ -1,0 +1,6 @@
+@CsApp_HostAddress = http://localhost:5215
+
+GET {{CsApp_HostAddress}}/
+Accept: application/json
+
+###

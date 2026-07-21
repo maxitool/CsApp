@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "CsApp.Controllers.TimescaleDataProcessingController",
+    "Method": "SaveToDB",
+    "RelativePath": "TimescaleDataProcessing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SaveToDB"
+  }
+]

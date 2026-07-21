@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "O2rEUwRqqj6yU5O0FmBgNaBeTs0L9n3t2hoRPgEedCI=",
+  "Source": "CsApp",
+  "BasePath": "_content/CsApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
