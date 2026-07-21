@@ -19,5 +19,15 @@ namespace CsApp.DB.Queries.Core
             return @$"DELETE FROM {"\"Values\""}
                 WHERE result_id = {result_id}";
         }
+
+        public static string Get10ValuesWithLimit(string filename, int limit)
+        {
+            return $@"SELECT values_data.* FROM {"\"Values\""} values_data
+                INNER JOIN (
+                SELECT * FROM {"\"Results\""}
+                WHERE filename='{filename}') results_data ON results_data.id = values_data.result_id
+                ORDER BY values_data.date DESC
+                LIMIT {limit}";
+        }
     }
 }

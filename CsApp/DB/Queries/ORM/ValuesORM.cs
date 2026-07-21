@@ -1,6 +1,7 @@
 ﻿using ValuesCore = CsApp.DB.Queries.Core.ValuesCore;
 using Npgsql;
 using Values = CsApp.DB.Models.Values;
+using CsApp.DB.Queries.Core;
 
 namespace CsApp.DB.Queries.ORM
 {
@@ -10,6 +11,35 @@ namespace CsApp.DB.Queries.ORM
         {
         }
 
+        public async Task<List<Values>?> GetWithFilenameAndLimit(string filename, int limit)
+        {
+            if (!await CheckConnection())
+                return null;
+            try
+            {
+                using var command = new NpgsqlCommand(ValuesCore.Get10ValuesWithLimit(filename, limit), _connection);
+                using var reader = await command.ExecuteReaderAsync();
+                if (reader.FieldCount == 0)
+                    return null;
+                List<Values> values = new(); Values value;
+                while (reader.Read())
+                {
+                    value = new();
+                    value.id = reader.GetInt32(0);
+                    value.result_id = reader.GetInt32(1);
+                    value.date = reader.GetDateTime(2);
+                    value.execution_time = reader.GetInt32(3);
+                    value.value = reader.GetDecimal(4);
+                    values.Add(value);
+                }
+                return values;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Can't get Values data from reader. Is format changed? (db error) in ValuesORM.GetWithFilenameAndLimit .");
+            }
+            return null;
+        }
         public async Task<int> InsertData(NpgsqlTransaction transaction, Values value)
         {
             if (!await CheckConnection() || value == null)

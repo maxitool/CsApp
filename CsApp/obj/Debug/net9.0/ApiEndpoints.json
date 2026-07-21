@@ -2,6 +2,22 @@
   {
     "ContainingType": "CsApp.Controllers.TimescaleDataProcessingController",
     "Method": "GetResultsWithFilters",
+    "RelativePath": "TimescaleDataProcessing/Get10Values",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CsApp.Controllers.TimescaleDataProcessingController",
+    "Method": "GetResultsWithFilters",
     "RelativePath": "TimescaleDataProcessing/GetResultsWithFilters",
     "HttpMethod": "POST",
     "IsController": true,

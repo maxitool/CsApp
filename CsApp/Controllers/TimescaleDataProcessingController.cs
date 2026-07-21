@@ -16,9 +16,7 @@ using System.Diagnostics;
 using CsApp.DB;
 using CsApp.FrontFilters;
 using CsApp.DB.Queries.Core.Filters;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using System.Text;
-using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace CsApp.Controllers
 {
@@ -27,6 +25,7 @@ namespace CsApp.Controllers
     public class TimescaleDataProcessingController : Controller
     {
         private static readonly int MAX_COUNT_FILE_LINES = 10000;
+        private static readonly int LIMIT = 10;
 
         [HttpPost("SaveToDB")]
         public async Task<IActionResult> SaveToDB(IFormFile file)
@@ -132,6 +131,8 @@ namespace CsApp.Controllers
         [HttpPost("GetResultsWithFilters")]
         public async Task<IActionResult> GetResultsWithFilters([FromBody] APIFrontFilters? apiFilters)
         {
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
             ParentFilter? filter = null;
             if (apiFilters != null)
                 filter = apiFilters.GetFilter();
@@ -149,6 +150,8 @@ namespace CsApp.Controllers
                     foreach (var item in results1)
                         stringBuilder1.Append('\n').Append(item.ToString());
                 stringBuilder1.Append("\n\nDid you specify filters?\n They may have been specified in the wrong format; check the console output.");
+                stopwatch.Stop();
+                stringBuilder1.Append($"\nSuccess! Method done within {stopwatch.Elapsed}.");
                 return Ok(stringBuilder1.ToString());
             }
             List<DB.Models.Results>? results2 = await resultsORM.GetAllWithFilter(filter);
@@ -162,7 +165,29 @@ namespace CsApp.Controllers
                     stringBuilder2.Append('\n').Append(item.ToString());
             stringBuilder2.Append('\n').Append('\n').Append(apiFilters.WorkFilters);
             stringBuilder2.Append("\n\nDidn't work all filters? \n They may have been specified in the wrong format; check the console output.");
+            stopwatch.Stop();
+            stringBuilder2.Append($"\nSuccess! Method done within {stopwatch.Elapsed}.");
             return Ok(stringBuilder2.ToString());
+        }
+        [HttpGet("Get10Values")]
+        public async Task<IActionResult> GetResultsWithFilters(string filename)
+        {
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            using NpgsqlConnection connection = new NpgsqlConnection(CsAppDBContext.CONNECTION_STRINGS);
+            ValuesORM valuesORM = new(connection);
+            List<Values> values = await valuesORM.GetWithFilenameAndLimit(filename, LIMIT);
+            if (values == null || values.Count <= 0)
+            {
+                stopwatch.Stop();
+                return Ok($"Didn't find Values with the filename.\nIf error check Console.\nSuccess! Method done within {stopwatch.Elapsed}.");
+            }
+            StringBuilder stringBuilder = new("Data:\n");
+            foreach (var item in values)
+                stringBuilder.Append('\n').Append(item.ToString());
+            stopwatch.Stop();
+            stringBuilder.Append($"\n\nSuccess! Method done within {stopwatch.Elapsed}.");
+            return Ok(stringBuilder.ToString());
         }
     }
 }
