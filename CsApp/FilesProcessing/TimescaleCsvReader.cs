@@ -58,7 +58,7 @@ namespace CsApp.FilesProcessing
                 CantConvert
             }
             public readonly bool State;
-            public readonly Values? Value;
+            public Values? Value;
             public readonly ErrorStates ErrorState = ErrorStates.None;
 
             public GetValueResponse(Values value)

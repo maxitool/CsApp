@@ -36,6 +36,9 @@ namespace CsApp.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("filename")
+                        .IsUnique();
+
                     b.ToTable("Files", "public");
                 });
 
@@ -53,8 +56,8 @@ namespace CsApp.Migrations
                     b.Property<decimal>("avg_value")
                         .HasColumnType("numeric");
 
-                    b.Property<DateTime>("delta_date")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<TimeSpan>("delta_date")
+                        .HasColumnType("interval");
 
                     b.Property<int>("id_file")
                         .HasColumnType("integer");

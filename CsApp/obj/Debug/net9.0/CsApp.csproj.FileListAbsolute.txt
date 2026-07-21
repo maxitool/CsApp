@@ -172,3 +172,4 @@ C:\VSprojects\CsApp\CsApp\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\VSprojects\CsApp\CsApp\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\VSprojects\CsApp\CsApp\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
 C:\VSprojects\CsApp\CsApp\bin\Debug\net9.0\CsvHelper.dll
+C:\VSprojects\CsApp\CsApp\obj\Debug\net9.0\CsApp.sourcelink.json

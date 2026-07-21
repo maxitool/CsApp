@@ -41,6 +41,8 @@ namespace CsApp.DB.Queries.ORM
 
         public async Task<int> GetId(string filename)
         {
+            if (!await CheckConnection() || filename == null)
+                return -1;
             try
             {
                 using var command = new NpgsqlCommand(FilesCore.GetId(filename), _connection);

@@ -6,7 +6,7 @@ namespace CsApp.DB.Queries.Core
     {
         public static string Insert(Files file)
         {
-            return $@"INSERT INTO Files 
+            return $@"INSERT INTO {"\"Files\""}
                 (filename) 
                 VALUES ('{file.filename}') 
                 RETURNING id";
@@ -14,7 +14,7 @@ namespace CsApp.DB.Queries.Core
 
         public static string GetId(string filename)
         {
-            return @$"Select id From Files 
+            return @$"Select id From {"\"Files\""} 
                 WHERE filename = '{filename}'";
         }
     }

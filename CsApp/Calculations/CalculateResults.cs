@@ -50,7 +50,7 @@ namespace CsApp.Calculations
         protected DateTime? _maxDateTime;
         protected DateTime? _minDateTime;
         protected List<decimal> _valuesList = new List<decimal>();
-        protected int _allExecutionTime;
+        protected decimal _allExecutionTime;
         protected int _countElements;
         protected decimal _minValue;
         protected decimal _maxValue;

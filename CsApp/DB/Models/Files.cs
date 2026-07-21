@@ -1,8 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CsApp.DB.Models
 {
+    [Index(nameof(filename), IsUnique = true)]
     [Table("Files", Schema = "public")]
     public class Files
     {

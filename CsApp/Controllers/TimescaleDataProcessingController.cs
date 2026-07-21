@@ -13,6 +13,7 @@ using GetValueResponse = CsApp.FilesProcessing.TimescaleCsvReader.GetValueRespon
 using CsApp.Calculations;
 using CsApp.Validators;
 using System.Diagnostics;
+using CsApp.DB;
 
 namespace CsApp.Controllers
 {
@@ -32,9 +33,10 @@ namespace CsApp.Controllers
                 return BadRequest("Didn't send the file or the file format is bad, require .csv format.");
             if (file.Length == 0)
                 return BadRequest("The file is empty.");
-            using NpgsqlConnection connection = new NpgsqlConnection();
+            using NpgsqlConnection connection = new NpgsqlConnection(CsAppDBContext.CONNECTION_STRINGS);
             FilesORM filesORM = new(connection);
             int fileId = await filesORM.GetId(file.FileName);
+            bool isAddFile = fileId >= 0;
             using NpgsqlTransaction transaction = connection.BeginTransaction();
             bool answer;
             ValuesORM valuesORM = new(connection);
@@ -77,6 +79,7 @@ namespace CsApp.Controllers
             bool isGood = true, canAddToDb = true; int curId; 
             while (response.State)
             {
+                response.Value.id_file = fileId;
                 if (!ValueValidator.ValidateValue(response.Value))
                 {
                     isGood = false;
@@ -113,7 +116,8 @@ namespace CsApp.Controllers
                 transaction.Rollback();
                 return BadRequest($"Element on position {calculateResults.CountElements + 1} didn't pass checks.");
             }
-            curId = await resultsORM.InsertData(transaction, calculateResults.CalculateResultsFromValue(fileId));
+            DB.Models.Results result = calculateResults.CalculateResultsFromValue(fileId);
+            curId = await resultsORM.InsertData(transaction, result);
             if (curId < 0)
             {
                 transaction.Rollback();
@@ -121,6 +125,8 @@ namespace CsApp.Controllers
             }
             transaction.Commit();
             stopwatch.Stop();
+            if (isAddFile)
+                return Ok($"Success! Method did change {calculateResults.CountElements} lines within {stopwatch.Elapsed}.");
             return Ok($"Success! Method did add {calculateResults.CountElements} lines within {stopwatch.Elapsed}.");
         }
     }

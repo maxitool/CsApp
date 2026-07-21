@@ -37,7 +37,7 @@ namespace CsApp.Migrations
                     id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     id_file = table.Column<int>(type: "integer", nullable: false),
-                    delta_date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    delta_date = table.Column<TimeSpan>(type: "interval", nullable: false),
                     min_date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     avg_execution_time = table.Column<decimal>(type: "numeric", nullable: false),
                     avg_value = table.Column<decimal>(type: "numeric", nullable: false),
@@ -66,6 +66,13 @@ namespace CsApp.Migrations
                 {
                     table.PrimaryKey("PK_Values", x => x.id);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Files_filename",
+                schema: "public",
+                table: "Files",
+                column: "filename",
+                unique: true);
         }
 
         /// <inheritdoc />
