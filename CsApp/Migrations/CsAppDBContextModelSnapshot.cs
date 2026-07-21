@@ -22,26 +22,6 @@ namespace CsApp.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("CsApp.DB.Models.Files", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
-
-                    b.Property<string>("filename")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("filename")
-                        .IsUnique();
-
-                    b.ToTable("Files", "public");
-                });
-
             modelBuilder.Entity("CsApp.DB.Models.Results", b =>
                 {
                     b.Property<int>("id")
@@ -59,8 +39,9 @@ namespace CsApp.Migrations
                     b.Property<TimeSpan>("delta_date")
                         .HasColumnType("interval");
 
-                    b.Property<int>("id_file")
-                        .HasColumnType("integer");
+                    b.Property<string>("filename")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<decimal>("max_value")
                         .HasColumnType("numeric");
@@ -75,6 +56,9 @@ namespace CsApp.Migrations
                         .HasColumnType("numeric");
 
                     b.HasKey("id");
+
+                    b.HasIndex("filename")
+                        .IsUnique();
 
                     b.ToTable("Results", "public");
                 });
@@ -93,7 +77,7 @@ namespace CsApp.Migrations
                     b.Property<int>("execution_time")
                         .HasColumnType("integer");
 
-                    b.Property<int>("id_file")
+                    b.Property<int>("result_id")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("value")
@@ -101,7 +85,25 @@ namespace CsApp.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("result_id");
+
                     b.ToTable("Values", "public");
+                });
+
+            modelBuilder.Entity("CsApp.DB.Models.Values", b =>
+                {
+                    b.HasOne("CsApp.DB.Models.Results", "result")
+                        .WithMany("values")
+                        .HasForeignKey("result_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("result");
+                });
+
+            modelBuilder.Entity("CsApp.DB.Models.Results", b =>
+                {
+                    b.Navigation("values");
                 });
 #pragma warning restore 612, 618
         }

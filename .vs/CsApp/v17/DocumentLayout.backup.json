@@ -3,52 +3,68 @@
   "WorkspaceRootPath": "C:\\VSprojects\\CsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\controllers\\timescaledataprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\controllers\\timescaledataprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\calculations\\calculateresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\calculations\\calculateresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\orm\\resultsorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\orm\\resultsorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181443_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CsApp\\Migrations\\20260721181443_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\csappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\csappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181354_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CsApp\\Migrations\\20260721181354_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\models\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\models\\files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\avgexecutiontimefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\avgexecutiontimefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\controllers\\timescaledataprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\controllers\\timescaledataprocessingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\avgvaluefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\avgvaluefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\apifrontfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\apifrontfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\rangefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\rangefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\calculations\\calculateresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\calculations\\calculateresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\parentcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\parentcore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\parsers\\datetimeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\parsers\\datetimeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\parentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\parentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\valuefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\valuefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\parentfrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\parentfrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\mindatefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\mindatefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\frontfilters\\filenamefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\frontfilters\\filenamefrontfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\filesprocessing\\timescalecsvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,52 +75,48 @@
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\resultscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\orm\\valuesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\orm\\valuesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\valuescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\valuescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\validators\\valuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\validators\\valuevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\orm\\filesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\orm\\filesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\parsers\\datetimeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\parsers\\datetimeparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\orm\\valuesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\orm\\valuesorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\orm\\parentorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\orm\\parentorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\csapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\csapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\valuescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\valuescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\csappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\csappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721193106_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CsApp\\Migrations\\20260721193106_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\filesprocessing\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\filesprocessing\\filereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\rangefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\rangefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181354_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CsApp\\Migrations\\20260721181354_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\parentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\parentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\db\\queries\\core\\filters\\valuefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\db\\queries\\core\\filters\\valuefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\csapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|solutionrelative:csapp\\csapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EE52EA-DF88-4345-ABCE-8EA6D3B4CB76}|CsApp\\CsApp.csproj|c:\\vsprojects\\csapp\\csapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -118,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,20 +138,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20260721181443_InitialCreate.cs",
-              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181443_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CsApp\\Migrations\\20260721181443_InitialCreate.cs",
-              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181443_InitialCreate.cs",
-              "RelativeToolTip": "CsApp\\Migrations\\20260721181443_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "APIFrontFilters.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\APIFrontFilters.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\APIFrontFilters.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\APIFrontFilters.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\APIFrontFilters.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvy0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T18:14:44.241Z",
+              "WhenOpened": "2026-07-21T21:09:28.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "AvgExecutionTimeFrontFilter.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\AvgExecutionTimeFrontFilter.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\AvgExecutionTimeFrontFilter.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\AvgExecutionTimeFrontFilter.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\AvgExecutionTimeFrontFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T20:27:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvgValueFrontFilter.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\AvgValueFrontFilter.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\AvgValueFrontFilter.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\AvgValueFrontFilter.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\AvgValueFrontFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T20:22:11.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MinDateFrontFilter.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\MinDateFrontFilter.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\MinDateFrontFilter.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\MinDateFrontFilter.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\MinDateFrontFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T19:56:25.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260721193106_InitialCreate.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721193106_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CsApp\\Migrations\\20260721193106_InitialCreate.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721193106_InitialCreate.cs",
+              "RelativeToolTip": "CsApp\\Migrations\\20260721193106_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T19:31:07.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FilenameFrontFilter.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\FilenameFrontFilter.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\FilenameFrontFilter.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\FilenameFrontFilter.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\FilenameFrontFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T18:46:42.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParentFrontFilter.cs",
+              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\ParentFrontFilter.cs",
+              "RelativeDocumentMoniker": "CsApp\\FrontFilters\\ParentFrontFilter.cs",
+              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FrontFilters\\ParentFrontFilter.cs",
+              "RelativeToolTip": "CsApp\\FrontFilters\\ParentFrontFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T18:38:22.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "20260721181354_InitialCreate.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Migrations\\20260721181354_InitialCreate.cs",
               "RelativeDocumentMoniker": "CsApp\\Migrations\\20260721181354_InitialCreate.cs",
@@ -147,25 +237,24 @@
               "RelativeToolTip": "CsApp\\Migrations\\20260721181354_InitialCreate.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T18:13:54.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T18:13:54.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CalculateResults.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Calculations\\CalculateResults.cs",
               "RelativeDocumentMoniker": "CsApp\\Calculations\\CalculateResults.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Calculations\\CalculateResults.cs",
               "RelativeToolTip": "CsApp\\Calculations\\CalculateResults.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T14:55:05.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ValueValidator.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Validators\\ValueValidator.cs",
               "RelativeDocumentMoniker": "CsApp\\Validators\\ValueValidator.cs",
@@ -178,46 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FilesORM.cs",
-              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\FilesORM.cs",
-              "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\ORM\\FilesORM.cs",
-              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\FilesORM.cs",
-              "RelativeToolTip": "CsApp\\DB\\Queries\\ORM\\FilesORM.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T13:06:17.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FilesCore.cs",
-              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\FilesCore.cs",
-              "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\FilesCore.cs",
-              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\FilesCore.cs",
-              "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\FilesCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T13:03:28.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Files.cs",
-              "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Files.cs",
-              "RelativeDocumentMoniker": "CsApp\\DB\\Models\\Files.cs",
-              "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Files.cs",
-              "RelativeToolTip": "CsApp\\DB\\Models\\Files.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T12:57:42.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "ValuesORM.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\ValuesORM.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\ORM\\ValuesORM.cs",
@@ -230,171 +280,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ResultsORM.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\ResultsORM.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\ORM\\ResultsORM.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\ResultsORM.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\ORM\\ResultsORM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T12:05:30.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ParentORM.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\ParentORM.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\ORM\\ParentORM.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\ORM\\ParentORM.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\ORM\\ParentORM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T11:59:16.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "ValuesCore.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ValuesCore.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\ValuesCore.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ValuesCore.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\ValuesCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T11:08:13.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "DateTimeParser.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Parsers\\DateTimeParser.cs",
               "RelativeDocumentMoniker": "CsApp\\Parsers\\DateTimeParser.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Parsers\\DateTimeParser.cs",
               "RelativeToolTip": "CsApp\\Parsers\\DateTimeParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T10:10:22.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "TimescaleCsvReader.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FilesProcessing\\TimescaleCsvReader.cs",
               "RelativeDocumentMoniker": "CsApp\\FilesProcessing\\TimescaleCsvReader.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FilesProcessing\\TimescaleCsvReader.cs",
               "RelativeToolTip": "CsApp\\FilesProcessing\\TimescaleCsvReader.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAMwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T14:28:44.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "FileReader.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\FilesProcessing\\FileReader.cs",
               "RelativeDocumentMoniker": "CsApp\\FilesProcessing\\FileReader.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\FilesProcessing\\FileReader.cs",
               "RelativeToolTip": "CsApp\\FilesProcessing\\FileReader.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T13:34:45.376Z"
+              "WhenOpened": "2026-07-20T13:34:45.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "RangeFilter.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\RangeFilter.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\Filters\\RangeFilter.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\RangeFilter.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\Filters\\RangeFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T12:32:35.149Z"
+              "WhenOpened": "2026-07-20T12:32:35.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 10,
               "Title": "ValueFilter.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\ValueFilter.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\Filters\\ValueFilter.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\ValueFilter.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\Filters\\ValueFilter.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T11:46:49.837Z"
+              "WhenOpened": "2026-07-20T11:46:49.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
               "Title": "ParentFilter.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\ParentFilter.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\Filters\\ParentFilter.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\Filters\\ParentFilter.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\Filters\\ParentFilter.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwA8AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T11:24:58.262Z"
+              "WhenOpened": "2026-07-20T11:24:58.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "ParentCore.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ParentCore.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\ParentCore.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ParentCore.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\ParentCore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T11:15:38.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ResultsCore.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ResultsCore.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Queries\\Core\\ResultsCore.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Queries\\Core\\ResultsCore.cs",
               "RelativeToolTip": "CsApp\\DB\\Queries\\Core\\ResultsCore.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T10:49:27.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\appsettings.json",
               "RelativeDocumentMoniker": "CsApp\\appsettings.json",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\appsettings.json",
               "RelativeToolTip": "CsApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-20T10:02:33.586Z"
+              "WhenOpened": "2026-07-20T10:02:33.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TimescaleDataProcessingController.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Controllers\\TimescaleDataProcessingController.cs",
               "RelativeDocumentMoniker": "CsApp\\Controllers\\TimescaleDataProcessingController.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Controllers\\TimescaleDataProcessingController.cs",
               "RelativeToolTip": "CsApp\\Controllers\\TimescaleDataProcessingController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAApwCgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T11:31:07.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "CsApp\\appsettings.Development.json",
@@ -406,46 +461,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "CsAppDBContext.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\CsAppDBContext.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\CsAppDBContext.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\CsAppDBContext.cs",
               "RelativeToolTip": "CsApp\\DB\\CsAppDBContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T09:30:29.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Results.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Results.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Models\\Results.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Results.cs",
               "RelativeToolTip": "CsApp\\DB\\Models\\Results.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T09:22:30.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Values.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Values.cs",
               "RelativeDocumentMoniker": "CsApp\\DB\\Models\\Values.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\DB\\Models\\Values.cs",
               "RelativeToolTip": "CsApp\\DB\\Models\\Values.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA8wCcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T09:21:48.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "CsApp.http",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\CsApp.http",
               "RelativeDocumentMoniker": "CsApp\\CsApp.http",
@@ -457,15 +512,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VSprojects\\CsApp\\CsApp\\Program.cs",
               "RelativeDocumentMoniker": "CsApp\\Program.cs",
               "ToolTip": "C:\\VSprojects\\CsApp\\CsApp\\Program.cs",
               "RelativeToolTip": "CsApp\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:02:05.07Z"
+              "WhenOpened": "2026-07-15T09:02:05.07Z",
+              "EditorCaption": ""
             }
           ]
         }

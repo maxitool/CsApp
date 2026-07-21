@@ -1,4 +1,5 @@
 ﻿using CsApp.DB.Models;
+using CsApp.Parsers;
 using CsvHelper;
 using System.Runtime.Serialization;
 
@@ -8,15 +9,15 @@ namespace CsApp.DB.Queries.Core
     {
         public static string Insert(Values value)
         {
-            return $@"INSERT INTO {"\"Values\""} (id_file, date, execution_time, value) 
-            VALUES ({value.id_file}, '{value.date.ToString(DATE_TIME_FORMAT)}', {value.execution_time}, {value.value}) 
+            return $@"INSERT INTO {"\"Values\""} (result_id, date, execution_time, value) 
+            VALUES ({value.result_id}, '{value.date.ToString(DateTimeParser.BASE_DATA_FORMAT)}', {value.execution_time}, {value.value}) 
             RETURNING id";
         }
 
-        public static string Delete(int id_file)
+        public static string Delete(int result_id)
         {
             return @$"DELETE FROM {"\"Values\""}
-                WHERE id_file = {id_file}";
+                WHERE result_id = {result_id}";
         }
     }
 }

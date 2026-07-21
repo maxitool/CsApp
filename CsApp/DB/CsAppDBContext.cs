@@ -1,21 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CsApp.DB.Models;
+using Microsoft.Extensions.Hosting;
 
 namespace CsApp.DB
 {
     public class CsAppDBContext : DbContext
     {
-        public static readonly string HOST = "localhost";
-        public static readonly int PORT = 5432;
-        public static readonly string DATABASE = "postgres";
-        public static readonly string SCHEMA = "public";
-        public static readonly string USERNAME = "postgres";
-        public static readonly string PASSWORD = "2403";
+        // SearchPath is Schema
         public static readonly string CONNECTION_STRINGS =
-            $"Host={HOST};Port={PORT};Database={DATABASE};Username={USERNAME};Password={PASSWORD};SearchPath={SCHEMA};";
+            "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=2403;SearchPath=public;";
         public DbSet<Values> Values { get; set; }
         public DbSet<Models.Results> Results { get; set; }
-        public DbSet<Models.Files> Files { get; set; }
 
         public CsAppDBContext()
         {
@@ -27,10 +22,13 @@ namespace CsApp.DB
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
-            modelBuilder.Entity<Files>()
+            modelBuilder.Entity<Models.Results>()
                 .HasIndex(u => u.filename)
                 .IsUnique();
+            modelBuilder.Entity<Values>()
+            .HasOne(u => u.result)
+            .WithMany(c => c.values)
+            .HasForeignKey(u => u.result_id);
         }
     }
 }

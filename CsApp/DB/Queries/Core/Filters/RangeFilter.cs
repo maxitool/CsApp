@@ -18,7 +18,7 @@ namespace CsApp.DB.Queries.Core.Filters
 
         protected override StringBuilder AddFilter(StringBuilder stringBuilder)
         {
-            stringBuilder.Append(_key).Append("BETWEEN");
+            stringBuilder.Append(_key).Append(' ').Append("BETWEEN").Append(' ');
             stringBuilder = ValueScreening(stringBuilder, _valueFrom, _type).Append(" AND ");
             return ValueScreening(stringBuilder, _valueTo, _type);
         }

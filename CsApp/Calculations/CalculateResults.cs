@@ -81,10 +81,10 @@ namespace CsApp.Calculations
             AddSorted(value.value);
         }
 
-        public Results? CalculateResultsFromValue(int id_file)
+        public Results? CalculateResultsFromValue(string filename)
         {
             Results result = new();
-            result.id_file = id_file;
+            result.filename = filename;
             if (_countElements <= 0)
             {
                 Console.WriteLine($"No elements in {nameof(CalculateResults)} class.");

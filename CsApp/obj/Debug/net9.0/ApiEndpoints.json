@@ -1,8 +1,24 @@
 [
   {
     "ContainingType": "CsApp.Controllers.TimescaleDataProcessingController",
+    "Method": "GetResultsWithFilters",
+    "RelativePath": "TimescaleDataProcessing/GetResultsWithFilters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiFilters",
+        "Type": "CsApp.FrontFilters.APIFrontFilters",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CsApp.Controllers.TimescaleDataProcessingController",
     "Method": "SaveToDB",
-    "RelativePath": "TimescaleDataProcessing",
+    "RelativePath": "TimescaleDataProcessing/SaveToDB",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,7 +29,6 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": [],
-    "EndpointName": "SaveToDB"
+    "ReturnTypes": []
   }
 ]

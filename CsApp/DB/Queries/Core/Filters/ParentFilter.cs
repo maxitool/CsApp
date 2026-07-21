@@ -47,7 +47,7 @@ namespace CsApp.DB.Queries.Core.Filters
         {
             switch (type)
             {
-                case Type t when (t == typeof(string) || t == typeof(DateTime)):
+                case Type t when (t == typeof(string) || t == typeof(DateTime) || t == typeof(TimeSpan)):
                     return stringBuilder.Append(SCREENING_CHAR + value + SCREENING_CHAR);
                 default:
                     return stringBuilder.Append(value);

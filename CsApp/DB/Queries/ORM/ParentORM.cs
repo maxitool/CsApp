@@ -16,8 +16,15 @@ namespace CsApp.DB.Queries.ORM
                 return false;
             if (_connection.State == ConnectionState.Open)
                 return true;
-            await _connection.OpenAsync();
-            return true;
+            try
+            {
+                await _connection.OpenAsync();
+                return true;
+            } catch (Exception e)
+            {
+                Console.WriteLine("Can't open connection to bd. Maybe bad CONNECTION_STRINGS in CsAppDBContext class.");
+            }
+            return false;
         }
     }
 }
