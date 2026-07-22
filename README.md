@@ -56,35 +56,35 @@ CSV имеет следующий формат:
 
 <p>Реализовано в методе TimescaleDataProcessing/GetResultsWithFilters</p>
 <p>В аргументе данный метод принимает класс с полями.</p>
-Пример ввода данных:
-{
-  "haveFilenameFilter": true,
-  "filename": "TimescaleData.csv",
-  "haveMinDateFilter": true,
-  "fromDate": "2024-07-15T14:30:45.1234Z",
-  "toDate": "2026-07-15T14:30:45.1234Z",
-  "haveAvgValueFilter": true,
-  "fromAvgValue": "234.1",
-  "toAvgValue": "234.2",
-  "haveAvgExecutionFilter": true,
-  "fromAvgExecution": "213123123.0",
-  "toAvgExecution": "213123123.1"
-}
-где haveFilenameFilter - будет ли использовать фильтр по имени файла (filename)
-haveMinDateFilter - будет ли использовать фильтр По времени запуска первой операции (диапазон (fromDate, toDate))
-haveAvgValueFilter - будет ли использовать фильтр по среднему показателю (диапазон (fromAvgValue, toAvgValue))
-haveAvgExecutionFilter - будет ли использовать фильтр по среднему времени выполнению (диапазон (fromAvgExecution, toAvgExecution))
+<p>Пример ввода данных:</p>
+<p>{</p>
+<p>  "haveFilenameFilter": true,</p>
+<p>  "filename": "TimescaleData.csv",</p>
+<p>  "haveMinDateFilter": true,</p>
+<p>  "fromDate": "2024-07-15T14:30:45.1234Z",</p>
+<p>  "toDate": "2026-07-15T14:30:45.1234Z",</p>
+<p>  "haveAvgValueFilter": true,</p>
+<p>  "fromAvgValue": "234.1",</p>
+<p>  "toAvgValue": "234.2",</p>
+<p>  "haveAvgExecutionFilter": true,</p>
+<p>  "fromAvgExecution": "213123123.0",</p>
+<p>  "toAvgExecution": "213123123.1"</p>
+<p>}</p>
+<p>где haveFilenameFilter - будет ли использовать фильтр по имени файла (filename)</p>
+<p>haveMinDateFilter - будет ли использовать фильтр По времени запуска первой операции (диапазон (fromDate, toDate))</p>
+<p>haveAvgValueFilter - будет ли использовать фильтр по среднему показателю (диапазон (fromAvgValue, toAvgValue))</p>
+<p>haveAvgExecutionFilter - будет ли использовать фильтр по среднему времени выполнению (диапазон (fromAvgExecution, toAvgExecution))</p>
 
-Обратине внимание на формат дат, они в виде ГГГГ-ММ-ДДTчч-мм-сс.ммммZ, как было заявлено в задании.
-Возможные выводы:
-1) Отсортированные по фильтрам данные с таблицы Results
-2) Все данные с таблицы Results, если не были указаны фильтры.
-3) Ошибка о провале валидации.
+<p>Обратине внимание на формат дат, они в виде ГГГГ-ММ-ДДTчч-мм-сс.ммммZ, как было заявлено в задании.
+Возможные выводы:</p>
+<p>1) Отсортированные по фильтрам данные с таблицы Results</p>
+<p>2) Все данные с таблицы Results, если не были указаны фильтры.</p>
+<p>3) Ошибка о провале валидации.</p>
 
 <h3>3. 
 Задание:</h3>
-Третий метод предназначен для получения списка последних 10 значений, отсортированных по начальномувремени запуска Date по имени заданного файла.
+<p>Третий метод предназначен для получения списка последних 10 значений, отсортированных по начальномувремени запуска Date по имени заданного файла.</p>
 
-Реализовано в методе TimescaleDataProcessing/Get10Values
-В аргументе данный метод принимает название файла. 
-Вывод либо 10 данных из таблицы Values по фильтрам, либо о провале валидации.
+<p>Реализовано в методе TimescaleDataProcessing/Get10Values</p>
+<p>В аргументе данный метод принимает название файла. </p>
+<p>Вывод либо 10 данных из таблицы Values по фильтрам, либо о провале валидации.</p>
