@@ -57,7 +57,7 @@ CSV имеет следующий формат:
 <p>5) По среднему времени выполнению (диапазон)</p>
 
 </br>
-<p><b>Реализовано</b> в методе TimescaleDataProcessing/GetResultsWithFilters</p>
+<p><b>Реализовано</b> в методе TimescaleDataProcessing/GetResultsWithFilter В виде Chain of Responsibility pattern.</p>
 <p>В аргументе данный метод принимает класс с полями.</p>
 <p>Пример ввода данных:</p>
 <p>{</p>
