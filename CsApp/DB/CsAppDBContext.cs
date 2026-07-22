@@ -8,7 +8,7 @@ namespace CsApp.DB
     {
         // SearchPath is Schema
         public static readonly string CONNECTION_STRINGS =
-            "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=2403;SearchPath=public;";
+            "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=password;SearchPath=public;";
         public DbSet<Values> Values { get; set; }
         public DbSet<Models.Results> Results { get; set; }
 
